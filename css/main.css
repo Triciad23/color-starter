@@ -59,9 +59,13 @@ footer {
   header {
     background-color: aliceblue;
   }
+  .col-3 {
+    width: 50%;
+  }
 
   #column-1 {
     background-color: cadetblue;
+    width: 100%;
   }
 
   #column-2 {
@@ -79,12 +83,16 @@ footer {
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+  .col-3 {
+    width: 33.3%;
+  }
   header {
     background-color: seagreen;
   }
 
   #column-1 {
     background-color: gainsboro;
+    width: 33.3%;
   }
 
   #column-2 {
